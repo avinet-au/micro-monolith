@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <RootNamespace>MicroMonolith.Personnel</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PersonnelContract\PersonnelContract.csproj" />
+    <ProjectReference Include="..\Setting\SettingServiceContract\SettingContract.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <AssemblyName>SettingSDK</AssemblyName>
+    <RootNamespace>MicroMonolith.Setting</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SettingService\SettingService.csproj" />
+  </ItemGroup>
+
+</Project>
