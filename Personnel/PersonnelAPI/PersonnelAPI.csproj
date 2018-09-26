@@ -18,7 +18,12 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.1" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Common\CommonContract\CommonContract.csproj" />
+    <ProjectReference Include="..\..\Common\CommonServices\CommonServices.csproj" />
+    <ProjectReference Include="..\..\Setting\SettingSDK\SettingSDK.csproj" />
+    <ProjectReference Include="..\..\Setting\SettingServiceContract\SettingContract.csproj" />
     <ProjectReference Include="..\PersonnelContract\PersonnelContract.csproj" />
+    <ProjectReference Include="..\PersonnelService\PersonnelService.csproj" />
   </ItemGroup>
 
 </Project>

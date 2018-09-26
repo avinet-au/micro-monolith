@@ -2,7 +2,6 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard1.4</TargetFramework>
-    <AssemblyName>SettingService</AssemblyName>
     <RootNamespace>MicroMonolith.Settings</RootNamespace>
   </PropertyGroup>
 

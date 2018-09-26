@@ -1,0 +1,16 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<div class="container">
+    <div class="jumbotron">
+        <h1 class="display-4">MicroMonolith!</h1>
+        <p class="lead">The perfect architecture for those who just cannot choose...</p>
+    </div>
+    <ul>
+        @foreach (var p in Model.Personnel) {
+            <li>@p.DisplayText</li>
+        }
+    </ul>
+</div>

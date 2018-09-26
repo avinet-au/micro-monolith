@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace MicroMonolith.Settings
+namespace MicroMonolith.Setting
 {
     public class SettingService : ISettingService
     {

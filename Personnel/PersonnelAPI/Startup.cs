@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
+using MicroMonolith.Common;
+using MicroMonolith.Personnel;
+using MicroMonolith.Setting;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -29,6 +31,13 @@ namespace PersonnelAPI
         {
             // Add framework services.
             services.AddMvc();
+
+            var baseUris = new Dictionary<MMService, string>();
+            baseUris.Add(MMService.Setting, "http://localhost:51062");
+
+            services.AddSingleton<ISDKConfigurationService>(provider => new SDKConfigurationService(baseUris));
+            services.AddSingleton<IPersonnelService, PersonnelService>();
+            services.AddSingleton<ISettingService, SettingSDK>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

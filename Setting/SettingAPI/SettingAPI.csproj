@@ -17,7 +17,9 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.1" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Common\CommonServices\CommonServices.csproj" />
     <ProjectReference Include="..\SettingServiceContract\SettingContract.csproj" />
+    <ProjectReference Include="..\SettingService\SettingService.csproj" />
   </ItemGroup>
 
 </Project>
