@@ -29,7 +29,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonServices", "Common\Co
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonContract", "Common\CommonContract\CommonContract.csproj", "{790C4E0D-B9E2-425B-A2FC-8DA13B9DD0C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{554AC8B5-1A1B-4C90-97EE-590320B4BE47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestApplication", "Application\TestApplication.csproj", "{554AC8B5-1A1B-4C90-97EE-590320B4BE47}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
